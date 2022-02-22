@@ -4,7 +4,7 @@ import { memo } from 'react';
 const App = memo(() => {
   return (
     <div className="App">
-      <a-scene vr-mode-ui="enabled: true;">
+      <a-scene>
         <a-entity gltf-model="url(./room2.glb)" rotation="0 180 0" position="0.3 0 -1"></a-entity>
         <a-entity light="type: spot; penumbra: 0.1; intensity: 0.2;" position="0.08 2.2 -0.05" rotation="-90 0 0"></a-entity>
         <a-entity light="type: spot; penumbra: 0.1; intensity: 0.2;" position="0.08 2.35 -1.68" rotation="-90 0 0"></a-entity>
