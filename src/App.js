@@ -15,7 +15,7 @@ const App = memo(() => {
           <a-sphere radius="0.05" color="white" material="color: #fff; shader: flat;"></a-sphere>
         </a-entity>
         <a-entity environment="preset: egypt"></a-entity>
-        <a-camera position="-0.4 1.6 0.4"></a-camera>
+        <a-camera position="-0.95 1.6 0.95"></a-camera>
         <a-entity id="leftHand" hand-controls="hand: left; handModelStyle: lowPoly; color: #ffcccc"></a-entity>
         <a-entity id="rightHand" hand-controls="hand: right; handModelStyle: lowPoly; color: #ffcccc"></a-entity>
       </a-scene>
