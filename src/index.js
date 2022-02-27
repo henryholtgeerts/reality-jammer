@@ -188,6 +188,9 @@ window.startScene = () => {
           document.querySelector("#doors").setAttribute('visible', 'true');
           break;
         }
+        default: {
+          // Do nothing
+        }
       }
     }
     if (window.sceneStarted === false) {

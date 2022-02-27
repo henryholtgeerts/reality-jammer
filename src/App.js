@@ -20,7 +20,7 @@ const App = memo(() => {
             </a-entity>
           </a-entity>
         </a-entity>
-        <a-entity id="calculator" visible="false" gltf-model="url(./calculator.glb)" rotation="0 180 0" position="0.1 1.4 -1" rotation="10 -75 30" scale="0.1 0.1 0.1"></a-entity>
+        <a-entity id="calculator" visible="false" gltf-model="url(./calculator.glb)" position="0.1 1.4 -1" rotation="10 -75 30" scale="0.1 0.1 0.1"></a-entity>
         <a-entity id="watch" visible="false" gltf-model="url(./watch.glb)" position="0.2 1.2 -1" rotation="10 -10 30" scale="0.1 0.1 0.1"></a-entity>
         <a-entity id="internet" visible="false" text="value: www;" scale="4 4 4" position="1.8 1.6 -1"></a-entity>
         <a-entity rotation="-15 0 0" id="browser" visible="false">
