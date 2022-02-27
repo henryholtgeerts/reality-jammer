@@ -29,7 +29,7 @@ const App = memo(() => {
         </a-entity>
         <a-entity id="jamming" visible="false" text="value: From Wikipedia.org - Radio Jamming; side: double;" scale="1 1 1" position="0 1.6 -1" rotation="0 0 5" animation="dur: 4000; loop: true; property: rotation; from: 0 0 15; to: 0 360 15;"></a-entity>
         <a-cylinder id="coins" visible="false" radius="0.2" height="0.02" color="yellow" position="0 1.6 -1" rotation="80 30 0" animation="loop: true; property: rotation; from: 80 30 0; to: 80 190 0;"></a-cylinder>
-        <a-entity id="question" visible="true">
+        <a-entity id="question" visible="false">
           <a-entity text="value: What was the fifth largest data breach in human history?;" scale="1 1 1" position="0 1.5 -1" rotation="0 0 5"></a-entity>
           <a-entity text="value: What was the fifth largest data breach in human history?;" scale="1 1 1" position="0 1.2 -0.3" rotation="0 20 -15"></a-entity>
           <a-entity text="value: What was the fifth largest data breach in human history?;" scale="1 1 1" position="0 1.9 -0.3" rotation="0 -40 -15"></a-entity>
